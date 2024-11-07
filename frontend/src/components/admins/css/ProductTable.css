@@ -1,0 +1,38 @@
+.table-success {
+    background-color: #d4edda;
+}
+
+.table-warning {
+    background-color: #fff3cd;
+}
+
+.text-success {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.text-warning {
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.table-container {
+    overflow-y: auto;
+    max-height: 700px;
+    /* Bạn có thể điều chỉnh chiều cao tùy ý */
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+    /* Màu nền để phù hợp với màu tiêu đề */
+    z-index: 2;
+    color: white;
+    /* Để đảm bảo chữ hiển thị rõ ràng */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
